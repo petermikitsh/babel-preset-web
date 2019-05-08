@@ -25,7 +25,12 @@ In  `.babelrc`:
   "presets": [
     [
       "babel-preset-web",
-      options
+      {
+        "targets": {
+          "ie": "11",
+        },
+        "useBuiltIns": "usage"
+      }
     ]
   ]
 }
