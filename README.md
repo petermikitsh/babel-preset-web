@@ -12,6 +12,14 @@ However, this misses web standards, such as [fetch]. For example: Although you m
 
 ## Usage
 
+Install:
+
+```
+npm i --save-dev babel-preset-web
+```
+
+In  `.babelrc`:
+
 ```json
 {
   "presets": [
