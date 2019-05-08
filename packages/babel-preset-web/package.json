@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-web",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1-alpha.1",
   "description": "Like @babel/preset-env, but for web standards.",
   "author": "Peter Mikitsh <peter.mikitsh@gmail.com>",
   "homepage": "https://github.com/petermikitsh/babel-preset-web/tree/master/packages/babel-preset-web#readme",
