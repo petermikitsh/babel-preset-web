@@ -114,7 +114,7 @@ new Intl.DateTimeFormat('en-US').format(new Date())
 
 `useBuiltIns: false`
 
-Don't add polyfills automatically per file, or transform import "@babel/polyfill" to individual polyfills.
+Don't add polyfills automatically per file.
 
 ### `ignoreBrowserslistConfig`
 

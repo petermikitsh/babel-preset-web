@@ -1,0 +1,30 @@
+{
+  "name": "babel-preset-web-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Like @babel/preset-env, but for web standards.",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run build",
+    "clean": "rimraf packages/*/lib",
+    "postinstall": "lerna bootstrap",
+    "start": "lerna run start --parallel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petermikitsh/babel-preset-web.git"
+  },
+  "author": "Peter Mikitsh <peter.mikitsh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petermikitsh/babel-preset-web/issues"
+  },
+  "homepage": "https://github.com/petermikitsh/babel-preset-web#readme",
+  "devDependencies": {
+    "lerna": "^3.13.4",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {}
+}
