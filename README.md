@@ -140,3 +140,11 @@ Toggles whether or not browserslist config sources are used, which includes sear
 [fetch]: https://fetch.spec.whatwg.org/
 [targets]: #targets
 [ignoreBrowserslistConfig]: #ignoreBrowserslistConfig
+
+
+## Included Polyfills
+
+- [whatwg-fetch](https://github.com/github/fetch)
+- [intl](https://github.com/andyearnshaw/Intl.js)
+
+Need a different polyfill? Open an issue or pull request.
