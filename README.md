@@ -2,14 +2,6 @@
 
 > Like @babel/preset-env, but for web standards.
 
-## Why?
-
-Many JavaScript projects use [@babel/preset-env] to (1) transpile ES2015 language features, and (2) add necessary polyfills for ECMAScript features based on a list of target browsers.
-
-However, this misses web standards, such as [fetch]. For example: Although you might be targeting `{"ie: "11"}` in your `@babel/preset-env`, your app **may throw runtime exceptions** if a web standard is not available in any of your target browsers.
-
-`babel-preset-web` seeks to solve this problem.
-
 ## Usage
 
 Install:
@@ -35,6 +27,16 @@ In  `.babelrc`:
   ]
 }
 ```
+
+Any Polyfills you'd need are included as NPM `dependencies` -- you do not need to install them separately.
+
+## Why?
+
+Many JavaScript projects use [@babel/preset-env] to (1) transpile ES2015 language features, and (2) add necessary polyfills for ECMAScript features based on a list of target browsers.
+
+However, this misses web standards, such as [fetch]. For example: Although you might be targeting `{"ie: "11"}` in your `@babel/preset-env`, your app **may throw runtime exceptions** if a web standard is not available in any of your target browsers.
+
+`babel-preset-web` seeks to solve this problem.
 
 ## Browserslist Integration
 
